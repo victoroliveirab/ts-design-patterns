@@ -4,6 +4,7 @@
   "description": "Set of design patterns written in Typescript",
   "scripts": {
     "compile": "tsc",
+    "iterator": "tsc && node ./dist/behavioral/iterator/index.js",
     "memento": "tsc && node ./dist/behavioral/memento/index.js",
     "observer": "tsc && node ./dist/behavioral/observer/index.js",
     "prototype": "tsc && node ./dist/creational/prototype/index.js",

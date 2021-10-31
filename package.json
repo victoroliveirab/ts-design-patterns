@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Set of design patterns written in Typescript",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "memento": "tsc && node ./dist/behavioral/memento/index.js",
+    "observer": "tsc && node ./dist/behavioral/observer/index.js",
+    "prototype": "tsc && node ./dist/creational/prototype/index.js",
+    "singleton": "tsc && node ./dist/creational/singleton/index.js"
   },
   "type": "commonjs",
   "keywords": [
